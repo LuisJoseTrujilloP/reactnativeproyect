@@ -3,8 +3,9 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
 	return (
+		// View fundemental container on React Native
 		<View style={styles.container}>
-			<Text></Text>
+			<Text>First component</Text>
 			<StatusBar style="auto" />
 		</View>
 	);
