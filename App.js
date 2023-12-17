@@ -8,9 +8,9 @@ export default function App() {
 		// View fundemental container on React Native
 		<View style={styles.container}>
 			<Text>React Native course</Text>
-			<Greeting name="Jose Juaquin" />
-			<Greeting name="David Smith" />
-			<Greeting name="Marcelo Di Maria" />
+			<Greeting firstname="Jose" lastname="Juaquin" />
+			<Greeting firstname="David " lastname="Smith" />
+			<Greeting />
 
 			<StatusBar style="auto" />
 			{/* <LoginForm /> */}
