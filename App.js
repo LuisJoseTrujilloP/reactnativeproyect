@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import LoginForm from "./src/components/LogingForm";
 
 export default function App() {
 	return (
@@ -7,6 +8,7 @@ export default function App() {
 		<View style={styles.container}>
 			<Text>First component</Text>
 			<StatusBar style="auto" />
+			<LoginForm />
 		</View>
 	);
 }
