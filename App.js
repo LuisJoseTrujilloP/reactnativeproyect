@@ -8,7 +8,7 @@ export default function App() {
 		// View fundemental container on React Native
 		<View style={styles.container}>
 			<Text>React Native course</Text>
-			<Greeting firstname="Jose" lastname="Juaquin" />
+			<Greeting firstname="Jose" lastname={22} />
 			<Greeting firstname="David " lastname="Smith" />
 			<Greeting />
 
